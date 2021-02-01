@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import State from './components/State';
+
+
+const data = ["India", 1947, "Narendra Modi"];
 
 function App() {
+
+  const [country,I_year,pm] = data;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>Hello React-Hooks</p>
+      <p>*******************************</p>
+      <p>Counrty: {country}</p>
+      <p>Independence year: {I_year}</p>
+      <p>Prime Ministaer: {pm} </p>
+<p>************************************</p>
+      <p>State Page</p>
+      <State/>
     </div>
   );
 }
