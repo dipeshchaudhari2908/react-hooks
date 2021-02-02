@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import State from './components/State';
+import Effect from './components/Effect';
 
 
 const data = ["India", 1947, "Narendra Modi"];
@@ -16,8 +17,12 @@ function App() {
       <p>Independence year: {I_year}</p>
       <p>Prime Ministaer: {pm} </p>
 <p>************************************</p>
-      <p>State Page</p>
+      <b><u><h1>useState Page</h1></u></b>
       <State/>
+      <p>**********************</p>
+      <Effect/>
+      <p>************************</p>
+      
     </div>
   );
 }
