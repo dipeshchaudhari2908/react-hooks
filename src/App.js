@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import State from './components/State';
 import Effect from './components/Effect';
+import Useeffect from './components/Useeffect';
 
 
 const data = ["India", 1947, "Narendra Modi"];
@@ -22,7 +23,7 @@ function App() {
       <p>**********************</p>
       <Effect/>
       <p>************************</p>
-      
+      <Useeffect/>
     </div>
   );
 }
